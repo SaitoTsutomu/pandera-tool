@@ -1,0 +1,31 @@
+[tool.poetry]
+authors = ["Saito Tsutomu <tsutomu7@hotmail.co.jp>"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+]
+description = "Tool for pandera."
+homepage = "https://github.com/SaitoTsutomu/pandera-tool"
+license = "Apache-2.0"
+name = "pandera-tool"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandera = "^0.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1"
+black = "^22.6"
+flake8 = "^5.0"
+isort = "^5.10"
+mypy = "^0.971"
+jupyterlab = "^3.4"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
